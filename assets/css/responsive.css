@@ -1,0 +1,117 @@
+/* Ipad pro */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .section-organized {
+        padding: 20px 0;
+    }
+    .left-mb {
+        margin-bottom: 30px;
+    }
+    footer {
+        padding: 60px 80px;
+    }
+}
+
+
+/* tablet and mobile */
+
+@media (max-width: 1023px) {
+    a.how-to-use {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .section-organized {
+        padding: 20px 0;
+    }
+    .left-mb {
+        margin-bottom: 30px;
+    }
+    .main-content {
+        padding: 50px 40px;
+    }
+    .section-organized img {
+        max-width: 100%;
+    }
+
+
+    .section-organized h2 {
+        font-size: 34px;
+    }
+
+    .content-pages {
+        padding: 100px 20px 20px 20px;
+        max-width: 100%;
+    }
+
+    
+
+    footer {
+        padding: 40px 40px;
+    }
+    .content-text {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .header {
+        padding: 10px 50px;
+    }
+    .header__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .header ul li {
+        padding-right: 8px;
+    }
+    .header .logo-svg {
+        width: 90px;
+    }
+
+    .section-organized {
+        padding: 16px 0;
+    }
+    .left-mb {
+        margin-bottom: 16px;
+    }
+
+    
+    footer {
+        padding: 40px 20px;
+        text-align: center;
+    }
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 500px) {
+    .header {
+        padding: 10px 8px;
+    }
+    .header .logo-svg {
+        width: 80px;
+    }
+    a.how-to-use {
+        padding: 0px 8px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        padding: 10px;
+    }
+    a.how-to-use {
+        padding: 0px 4px;
+    }
+    img.google-play {
+        width: 100px;
+    }
+}
