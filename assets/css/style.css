@@ -82,15 +82,22 @@
         line-height: 26px;
     }
     /* top header */
-    .section-organized.top-header h2 {
-        text-align: center;
-    }
-
-    .section-organized.top-header p.paragraph {
-        text-align: center;
+    
+    .section-organized.top-header {
+        padding: 26px 0;
     }
     
+    .section-organized.top-header h2 {
+        text-align: center;
+        font-size: 70px;
+    }
+    
+    .section-organized.top-header p.paragraph {
+        text-align: center;
+        font-size: 24px;
+    }
     /* Organized First */
+    
     .section-organized {
         padding: 50px 0;
     }
@@ -131,7 +138,7 @@
         margin-top: 16px;
         display: inline-block;
     }
-
+    
     .section-organized h3 {
         font-size: 30px;
         font-weight: 800;
@@ -142,15 +149,11 @@
         color: var(--second-color);
         text-shadow: 1px 1px 0 black;
     }
-
-   
-    
-
     /*  Content Pages */
+    
     .content-pages {
         padding: 100px 100px 20px 100px;
     }
-
     /* footer */
     
     footer {
