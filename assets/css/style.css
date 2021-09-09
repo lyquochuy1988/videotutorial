@@ -187,3 +187,40 @@
         line-height: 1.2em;
         text-decoration: none;
     }
+    /* Side Floater */
+    
+    .share {
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        bottom: 50%;
+        width: 70px;
+        padding: 18px 6px 0;
+        background: #fff;
+        border-radius: 20px 0 0 20px;
+        transform: translate(0, 50%);
+        box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+    }
+    
+    .srOnly {
+        position: absolute;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+    }
+    
+    .share a {
+        display: block;
+        transition: transform .3s;
+    }
+    
+    .share a:hover {
+        transform: translate(0, -8px);
+    }
+    
+    .share img {
+        display: block;
+        padding: 14px 8px;
+        max-width: 100%;
+    }
