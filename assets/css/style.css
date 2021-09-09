@@ -41,9 +41,10 @@
     }
     
     a.how-to-use {
-        background: linear-gradient(#ffc42f, #fbe539);
-        color: #8327c0 !important;
-        /* margin-left: 20px; */
+        /* background: linear-gradient(#ffc42f, #fbe539); */
+        background: linear-gradient(#48bcef, #08578c);
+        color: #fff;
+        /* font-family: 'Rockwell-Bold', sans-serif; */
         text-transform: none;
         padding: 0px 20px;
         height: auto;
