@@ -10,8 +10,14 @@
         width: 100%;
         z-index: 2;
         padding: 10px 100px;
-        /* background-color: #ffc42f; */
-        background-color: var(--second-color);
+        background-color: var(--primary-color);
+        border-bottom: 1px solid rgba(255, 255, 255, .07)
+    }
+    
+    .header__inner {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
     
     .header ul {
@@ -24,11 +30,44 @@
     }
     
     .header ul li {
-        padding-right: 20px;
+        padding-right: 30px;
     }
     
     .header ul li:last-child {
         padding-right: 0px;
+    }
+    
+    .header ul li a {
+        position: relative;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        border-color: rgba(0, 0, 0, 0.03);
+    }
+    
+    .header ul li.active a:after {
+        height: 1px;
+        left: 0%;
+        top: 50%;
+        margin-top: 20px;
+        width: 100%;
+        content: "";
+        position: absolute;
+        background: #ffffff;
+    }
+    
+    .header ul li:hover a:after {
+        height: 1px;
+        left: 0%;
+        top: 50%;
+        margin-top: 20px;
+        width: 100%;
+        content: "";
+        position: absolute;
+        background: #ffffff;
     }
     
     .header li a img {
@@ -44,7 +83,6 @@
         /* background: linear-gradient(#ffc42f, #fbe539); */
         background: linear-gradient(#48bcef, #08578c);
         color: #fff;
-        /* font-family: 'Rockwell-Bold', sans-serif; */
         text-transform: none;
         padding: 0px 20px;
         height: auto;
@@ -76,7 +114,7 @@
     
     .main-content {
         background-color: var(--primary-color);
-        font-family: 'Rockwell', sans-serif;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
         padding: 50px 100px;
         margin-top: 60px;
         color: var(--black-color);
@@ -114,18 +152,18 @@
     }
     
     .section-organized h2 {
-        font-size: 45px;
-        font-weight: 800;
+        font-size: 42px;
+        font-weight: 500;
         text-transform: capitalize;
         line-height: 1.2em;
-        font-family: 'Rockwell-Bold';
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
         margin: 0;
-        color: var(--second-color);
+        color: var(--white-color);
         text-shadow: 1px 1px 0 black;
     }
     
     .section-organized p.paragraph {
-        color: var(--black-color);
+        color: var(--white-color);
         line-height: 2em;
         text-align: justify;
         font-size: 18px;
@@ -134,7 +172,7 @@
     .download-btn {
         background-color: var(--button-bg);
         color: var(--white-color);
-        padding: 18px 26px;
+        padding: 12px 34px;
         font-size: 16px;
         margin-top: 16px;
         display: inline-block;
@@ -145,10 +183,38 @@
         font-weight: 800;
         text-transform: capitalize;
         line-height: 1.2em;
-        font-family: 'Rockwell-Bold';
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
         margin: 0;
-        color: var(--second-color);
+        color: #272324;
         text-shadow: 1px 1px 0 black;
+    }
+    /* wrapper content */
+    
+    .wrapper-content {
+        background-color: var(--white-color);
+    }
+    
+    .wrapper-content .section-organized h2 {
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        color: #272324;
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-shadow: none;
+    }
+    
+    .wrapper-content .section-organized p.paragraph {
+        color: #777d77;
+        line-height: 1.8em;
+    }
+    
+    .wrapper-content .download-btn {
+        background-color: #fdeceb;
+        color: #ee463e;
+        border: none;
+        padding: 16px 35px;
+        border-radius: 50px;
     }
     /*  Content Pages */
     
@@ -183,7 +249,8 @@
     }
     
     footer .link-bottom a {
-        color: var(--second-color);
+        color: #272324;
+        ;
         text-align: left;
         line-height: 1.2em;
         text-decoration: none;
