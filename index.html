@@ -33,15 +33,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
     <link rel="shortcut icon" href="./assets/favicons/favicon.io" type="image/png">
 
-
+    <!-- awesome fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
-
+    <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-
-
 
 </head>
 
@@ -55,11 +54,16 @@
                             <a href="index.html"><img class="logo-svg" src="./assets/img/mylogo.png" alt="logo" width="160px"></a>
                         </div>
                         <ul>
-                            <li class="active"><a href="#">Book 1</a></li>
-                            <li><a href="#">Book 2</a></li>
-                            <li><a href="#">Book 3</a></li>
-                            <li><a href="#">Book 4</a></li>
+                            <li class="active"><a href="#book-1">Book 1</a></li>
+                            <li><a href="#book-2">Book 2</a></li>
+                            <li><a href="#book-3">Book 3</a></li>
+                            <li><a href="#book-4">Book 4</a></li>
+                            <li><a href="#book-5">Book 5</a></li>
+                            <li><a href="#book-6">Book 6</a></li>
                         </ul>
+                        <div class="header_menubar">
+                            <i class="icon-menu fas fa-bars"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,46 +89,50 @@
 
 
         <div class="wrapper-content">
-            <div class="section-organized organized-first">
+            <div id="book-1" class="section-organized organized-first">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-left">
                             <p class="edit-img">
                                 <img class="app-mobile-2" src="./assets/img/1.png" alt="" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12">
-                            <h2>Fusce lobortis porttitor purus fringilla</h2>
-                            <p class="paragraph">Keeps your critical secrets where they belong: right in your hands!</p>
+                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
+                            <p class="paragraph">
 
-                            <p class="paragraph">Before we start , I must clarify something. LockDiary is not a place to write down anything trivial. LockDiary is a armored digital organizer for your most critical and secret information.
+                                HOW TO READ A NORMAL SCAN series focuses on normal neuroanatomy as seen on a standard CT and MRI and MRA scas of the Brain and Spine.
                             </p>
 
-                            <p class="paragraph">Heavy duty encryption prevents your data from leaving your hands. A powerful indexing and retrieval system makes it easy and effortless to store and retrieve critical information.</p>
-                            <p class="wrap-button">
-
-                                <a href="https://play.google.com/store/apps/details?id=com.lock_diary" class="btn download-btn">Read more</a>
-                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.brainct">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <a href="https://www.amazon.com/dp/B0B2TY6KLQ" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--end organized first -->
 
-            <div class="section-organized organized-second">
+            <div id="book-2" class="section-organized organized-second">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb">
-                            <h2>Fusce lobortis porttitor purus fringilla</h2>
+                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
-                                Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula velit sodales vitae. Mauris mollis lobortis turpis eget.
+                                It is vitally important that you have a clear idea as to the identity of each structure that you see on the MRI or CT scan. It is of great importance that you should have as few ‘blind spots’ in your knowledge of Neuroradiological anatomy as possible,
+                                this makes life easier for you and your patient and if you are a resident this means way less headaches for your program director.
                             </p>
-                            <p class="wrap-button">
-
-                                <a href="https://play.google.com/store/apps/details?id=com.lock_diary" class="btn download-btn">Read more</a>
-                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.spinect">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <a href="https://www.amazon.com/dp/B0B3RFNZNB" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
                         </div>
-                        <div class="col l-6 m-12 c-12">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-left">
                             <p class="edit-img">
                                 <img class="app-mobile-2" src="./assets/img/2.png" alt="" width="100%">
                             </p>
@@ -134,43 +142,51 @@
             </div>
             <!--end organized second -->
 
-            <div class="section-organized organized-third">
+            <div id="book-3" class="section-organized organized-third" data-aos="fade-up">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-right">
                             <p class="edit-img">
                                 <img class="app-mobile-2" src="./assets/img/3.png" alt="app" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12">
-                            <h2>Nulla imperdiet sit amet magna dapibus</h2>
+                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
-                                Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula velit sodales vitae. Mauris mollis lobortis turpis eget.
+                                As health care providers or health care students and trainees, we have all been there. We are staring intensely at a black and white picture known as the MRI (or CT), and the eager guy standing next to you points to some strange blob on it and asks “What
+                                is that?” In that moment of panic, you try to decide whether silence is golden or stupid. You try to decide whether you should open your mouth and reveal your ignorance and put your white coat to shame, or to wisely stroke
+                                your beard and look thoughtful.
                             </p>
-                            <p class="wrap-button">
-
-                                <a href="https://play.google.com/store/apps/details?id=com.lock_diary" class="btn download-btn">Read more</a>
-                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.brainmri1">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <a href="https://www.amazon.com/dp/B0B4KDRP91" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--end organized third -->
 
-            <div class="section-organized organized-four">
+            <div id="book-4" class="section-organized organized-four" data-aos="fade-up">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb">
-                            <h2>Fusce lobortis porttitor purus fringilla</h2>
+                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
-                                Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula velit sodales vitae. Mauris mollis lobortis turpis eget.
+                                Medical student years and Residency years all go at the speed of a bullet train, where you are caught in the read-work-sleep cycle and you have no time to pause and think about the fundamentals that get glossed over on the way. Sure, you know how to identify
+                                a ‘stroke’ on the MRI scan but I bet you anything that even a kindergartner can stump you with a ‘What is that?’ question by just pointing at some random structure on the brain scan. It is all too easy to make the journey
+                                from the first glorious day of medical school to the last heartbreaking day of your practice without having a clue as to what that gray blob on the MRI actually represents.
                             </p>
-                            <p class="wrap-button">
-
-                                <a href="https://play.google.com/store/apps/details?id=com.lock_diary" class="btn download-btn">Read more</a>
-                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.brainmri2">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <a href="https://www.amazon.com/dp/B0B3HL8KN7" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
                         </div>
-                        <div class="col l-6 m-12 c-12">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-left">
                             <p class="edit-img">
                                 <img class="app-mobile-2" src="./assets/img/4.png" alt="app" width="100%">
                             </p>
@@ -179,6 +195,59 @@
                 </div>
             </div>
             <!--end organized four -->
+
+            <div id="book-5" class="section-organized organized-five" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-right">
+                            <p class="edit-img">
+                                <img class="app-mobile-2" src="./assets/img/5.png" alt="app" width="100%">
+                            </p>
+                        </div>
+                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
+                            <p class="paragraph">
+                                The objective of the “HOW TO READ A NORMAL SCAN” series is to familiarize you with NORMAL anatomy as seen on MRI scans and CT scans before memorizing what Hallevorden Spatz or Blah Blah looks like (sure enough in your Board exam they will want you to
+                                identify Blah Blah that no one has seen in 500 doctor years).
+                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.mrahead">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <a href="https://www.amazon.com/dp/B0B3M49NQH" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="book-6" class="section-organized organized-six" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                            <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
+                            <p class="paragraph">
+                                My hope is, that after reading these books, at the very least you can point out structures on a normal scan and identify exactly what they are. And it is not just about avoiding the embarrassment of ignorance, it is about the sheer satisfaction of knowing
+                                what these things are...
+                            </p>
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.book.mrispine">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                                <!-- <a href="#">
+                                    <img class="amazon-store" src="./assets/img/avaliable-on-amazon-badge.png" alt="amazon store">
+                                </a> -->
+                                <a href="https://www.amazon.com/dp/B0B3JGYRJ9" class="btn download-btn">Get the Print Edition on Amazon</a>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12" data-aos="fade-left">
+                            <p class="edit-img">
+                                <img class="app-mobile-2" src="./assets/img/6.png" alt="app" width="100%">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>
@@ -201,12 +270,75 @@
             </div>
         </footer>
 
+        <div class="nav__mobile">
+            <div class="nav__mobile_container">
+                <ul class="nav__mobile__list">
+                    <li class="active"><a href="#book-1">Book 1</a></li>
+                    <li><a href="#book-2">Book 2</a></li>
+                    <li><a href="#book-3">Book 3</a></li>
+                    <li><a href="#book-4">Book 4</a></li>
+                    <li><a href="#book-5">Book 5</a></li>
+                    <li><a href="#book-6">Book 6</a></li>
+                </ul>
+                <div class="nav__icon--close">
+                    <i class="far fa-times-circle"></i>
+                </div>
+            </div>
 
+        </div>
+        <!-- <div id="body_overlay"></div> -->
     </div>
     <!--end app-->
 
+    <script type="text/javascript" src="./assets/js/animation.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            offset: 400,
+            duration: 1000,
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('.header ul li a').click(function() {
+            $('.header ul li.active').removeClass('active');
+            $(this).parent().addClass('active');
+        });
+    </script>
+
+    <script>
+        var iconMenu = document.querySelector('.icon-menu')
+        var navClose = document.querySelector('.nav__icon--close i')
+        var navMobile = document.querySelector('.nav__mobile')
+        var navMobileContainer = document.querySelector('.nav__mobile_container')
+            // var bodyOverlay = document.querySelector('#body_overlay')
 
 
+        iconMenu.onclick = function() {
+            navMobile.style.transform = 'translateX(0)'
+            navMobile.style.opacity = 1
+                // bodyOverlay.style.display = 'block'
+
+        }
+
+        navClose.onclick = function() {
+            navMobile.style.transform = 'translateX(354px)'
+            navMobile.style.opacity = 0
+                // bodyOverlay.style.display = 'none'
+        }
+
+        function hideNav() {
+            navMobile.style.transform = 'translateX(354px)'
+            navMobile.style.opacity = 0
+        }
+
+        navMobile.addEventListener('click', function(event) {
+            hideNav()
+        })
+
+        navMobileContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+    </script>
 </body>
 
 </html>
