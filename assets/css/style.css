@@ -295,7 +295,7 @@
     /*  Content Pages */
     
     .content-pages {
-        padding: 100px 100px 20px 100px;
+        padding: 120px 100px 50px 100px;
     }
     /* footer */
     
@@ -332,40 +332,42 @@
         line-height: 1.2em;
         text-decoration: none;
     }
-    /* Side Floater */
+    /* Other Pages */
     
-    .share {
-        position: fixed;
-        z-index: 1000;
-        right: 0;
-        bottom: 50%;
-        width: 70px;
-        padding: 18px 6px 0;
-        background: #fff;
-        border-radius: 20px 0 0 20px;
-        transform: translate(0, 50%);
-        box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+    .content-pages .text-dark {
+        color: var(--dark);
     }
     
-    .srOnly {
-        position: absolute;
-        overflow: hidden;
-        width: 1px;
-        height: 1px;
-        opacity: 0;
+    .content-pages .mb-5 {
+        margin-bottom: 2.5rem;
     }
     
-    .share a {
-        display: block;
-        transition: transform .3s;
+    h1.semibold,
+    h2.semibold,
+    h3.semibold,
+    h4.semibold,
+    p.semibold {
+        font-weight: 600;
     }
     
-    .share a:hover {
-        transform: translate(0, -8px);
+    .content-pages h2 {
+        font-size: 32px;
     }
     
-    .share img {
-        display: block;
-        padding: 14px 8px;
-        max-width: 100%;
+    .content-pages h4 {
+        font-size: 30px;
+    }
+    
+    .content-pages p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .content-pages.bottom-pages {
+        padding-bottom: 0px;
+    }
+    /* Wrap two apps */
+    
+    .wrap-apps {
+        background-color: #0a996b;
     }
