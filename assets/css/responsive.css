@@ -253,7 +253,7 @@
         line-height: 32px;
     }
     img.google-play {
-        width: 100%;
+        max-width: 100%;
     }
     .download-btn {
         padding: 12px 22px;
@@ -281,15 +281,12 @@
     a.how-to-use {
         padding: 0px 4px;
     }
-    img.google-play {
-        width: 100px;
-    }
     .wrapper-content .section-organized h2 {
         font-size: 22px;
         line-height: 32px;
     }
     img.google-play {
-        width: 100%;
+        max-width: 100%;
     }
     .download-btn {
         padding: 12px 22px;
