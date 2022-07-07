@@ -117,14 +117,45 @@
         flex-direction: column;
         padding-bottom: 0px;
     }
+    .section-organized {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-organized.organized-first,
+    .section-organized.organized-second,
+    .section-organized.organized-third,
+    .section-organized.organized-four,
+    .section-organized.organized-five,
+    .section-organized.organized-six {
+        padding-bottom: 0px;
+    }
     .wrap-button {
         text-align: center;
         margin: 0;
+        justify-content: center;
     }
 }
 
 
 /* Mobile */
+
+@media (max-width: 768px) {
+    .section-organized {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-organized.organized-first,
+    .section-organized.organized-second,
+    .section-organized.organized-third,
+    .section-organized.organized-four,
+    .section-organized.organized-five,
+    .section-organized.organized-six {
+        padding-bottom: 0px;
+    }
+    .wrap-button {
+        justify-content: center;
+    }
+}
 
 @media (max-width: 739px) {
     .header {
@@ -184,12 +215,23 @@
 
 /* Small Mobile */
 
+@media (max-width: 600px) {
+    .section-organized {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .wrap-button {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 500px) {
     .header {
         padding: 10px 8px;
     }
     .header .logo-svg {
-        width: 80px;
+        width: 60px;
     }
     a.how-to-use {
         padding: 0px 8px;
@@ -202,6 +244,26 @@
     iframe {
         width: 100%;
         height: 550px;
+    }
+}
+
+@media (max-width: 420px) {
+    .wrapper-content .section-organized h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    img.google-play {
+        width: 100%;
+    }
+    .download-btn {
+        padding: 12px 22px;
+    }
+    .header .logo-svg {
+        width: 46px;
+    }
+    .section-organized {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -221,5 +283,18 @@
     }
     img.google-play {
         width: 100px;
+    }
+    .wrapper-content .section-organized h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    img.google-play {
+        width: 100%;
+    }
+    .download-btn {
+        padding: 12px 22px;
+    }
+    .header .logo-svg {
+        width: 42px;
     }
 }

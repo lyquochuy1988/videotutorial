@@ -21,6 +21,22 @@
         align-items: center;
     }
     
+    .wrap-logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .wrap-logo a.logo-text {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        border-color: rgba(0, 0, 0, 0.03);
+    }
+    
     .header ul {
         display: flex;
         align-items: center;
@@ -169,7 +185,11 @@
     /* Main Content */
     
     .main-content {
-        background-color: var(--primary-color);
+        /* background-color: var(--primary-color); */
+        background-image: url('../img/stroke-app.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
         font-family: "Roboto", Helvetica, Arial, sans-serif;
         padding: 50px 100px;
         margin-top: 60px;
@@ -242,7 +262,7 @@
     }
     
     .download-btn {
-        background-color: var(--button-bg);
+        /* background-color: var(--button-bg); */
         color: var(--white-color);
         padding: 12px 34px;
         font-size: 16px;
@@ -250,8 +270,8 @@
         display: inline-block;
     }
     
-    .wrap-button .download-btn {
-        height: 48px;
+    .btn-bg {
+        background-color: var(--button-bg);
     }
     
     .section-organized h3 {
@@ -286,7 +306,7 @@
     }
     
     .wrapper-content .download-btn {
-        background-color: #fdeceb;
+        /* background-color: #fdeceb; */
         color: #ee463e;
         border: none;
         padding: 16px 35px;
@@ -295,12 +315,12 @@
     /*  Content Pages */
     
     .content-pages {
-        padding: 120px 100px 50px 100px;
+        padding: 120px 100px 70px 100px;
     }
     /* footer */
     
     footer {
-        padding: 30px 100px 20px;
+        padding: 30px 100px 30px;
         background-color: #f5f7f5;
     }
     
@@ -364,10 +384,41 @@
     }
     
     .content-pages.bottom-pages {
-        padding-bottom: 0px;
+        /* padding-bottom: 0px; */
     }
-    /* Wrap two apps */
+    /* Wrap three apps */
     
-    .wrap-apps {
-        background-color: #0a996b;
+    .wrap-apps {}
+    
+    .wrap-apps .stroke-app {
+        background-image: url('../img/stroke-app.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+    
+    .neurology-app h2 {
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        color: #272324;
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-shadow: none;
+    }
+    
+    .neurology-app p.paragraph {
+        color: #777d77;
+        line-height: 1.8em;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .wrap-apps .acls {
+        /* background-color: #d1e5e7; */
+        background-color: var(--primary-color);
+        background-image: url('../img/acls-bg.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
     }

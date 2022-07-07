@@ -38,7 +38,6 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
@@ -51,15 +50,17 @@
                 <div class="row">
                     <div class="header__inner">
                         <div class="wrap-logo">
-                            <a href="index.html"><img class="logo-svg" src="./assets/img/mylogo.png" alt="logo" width="160px"></a>
+                            <a href="index.html"><img class="logo-svg" src="./assets/img/logo.png" alt="logo"></a>
+                            <a class="logo-text" href="index.html">neurologyresidency.org</a>
                         </div>
+
                         <ul>
-                            <li class="active"><a href="#book-1">Book 1</a></li>
-                            <li><a href="#book-2">Book 2</a></li>
-                            <li><a href="#book-3">Book 3</a></li>
-                            <li><a href="#book-4">Book 4</a></li>
-                            <li><a href="#book-5">Book 5</a></li>
-                            <li><a href="#book-6">Book 6</a></li>
+                            <li class="active"><a href="#ct-head">CT Head</a></li>
+                            <li><a href="#ct-spine">CT Spine</a></li>
+                            <li><a href="#mri-brain-1">MRI Brain 1</a></li>
+                            <li><a href="#mri-brain-2">MRI Brain 2</a></li>
+                            <li><a href="#mra-head">MRA Head</a></li>
+                            <li><a href="#mri-spine">MRI Spine</a></li>
                         </ul>
                         <div class="header_menubar">
                             <i class="icon-menu fas fa-bars"></i>
@@ -74,11 +75,8 @@
                 <div class="grid">
                     <div class="row">
                         <div class="col l-12 m-12 c-12">
-                            <h2>Time Management Application</h2>
-                            <p class="paragraph">Fusce ut velit laoreet tempus arcu eu molestie tortor</p>
-                            <p class="wrap-button text-center">
-                                <a href="https://play.google.com/store/apps/details?id=com.lock_diary" class="btn download-btn">DOWNLOAD NOW!</a>
-                            </p>
+                            <h2>Neurology Residency</h2>
+                            <p class="paragraph">Books And Apps</p>
                         </div>
                     </div>
                 </div>
@@ -87,9 +85,15 @@
         </div>
         <!--end main content-->
 
+        <!-- display video -->
+        <video width="100%" height="auto" controls>
+            <source src="./assets/video/video-home.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
 
         <div class="wrapper-content">
-            <div id="book-1" class="section-organized organized-first">
+            <div id="ct-head" class="section-organized organized-first">
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-6 m-12 c-12" data-aos="fade-left">
@@ -97,7 +101,7 @@
                                 <img class="app-mobile-2" src="./assets/img/1.png" alt="" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
 
@@ -116,10 +120,10 @@
             </div>
             <!--end organized first -->
 
-            <div id="book-2" class="section-organized organized-second">
+            <div id="ct-spine" class="section-organized organized-second">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12 left-mb">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
                                 It is vitally important that you have a clear idea as to the identity of each structure that you see on the MRI or CT scan. It is of great importance that you should have as few ‘blind spots’ in your knowledge of Neuroradiological anatomy as possible,
@@ -142,7 +146,7 @@
             </div>
             <!--end organized second -->
 
-            <div id="book-3" class="section-organized organized-third" data-aos="fade-up">
+            <div id="mri-brain-1" class="section-organized organized-third">
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-6 m-12 c-12" data-aos="fade-right">
@@ -150,7 +154,7 @@
                                 <img class="app-mobile-2" src="./assets/img/3.png" alt="app" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
                                 As health care providers or health care students and trainees, we have all been there. We are staring intensely at a black and white picture known as the MRI (or CT), and the eager guy standing next to you points to some strange blob on it and asks “What
@@ -169,10 +173,10 @@
             </div>
             <!--end organized third -->
 
-            <div id="book-4" class="section-organized organized-four" data-aos="fade-up">
+            <div id="mri-brain-2" class="section-organized organized-four">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12 left-mb">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
                                 Medical student years and Residency years all go at the speed of a bullet train, where you are caught in the read-work-sleep cycle and you have no time to pause and think about the fundamentals that get glossed over on the way. Sure, you know how to identify
@@ -196,7 +200,7 @@
             </div>
             <!--end organized four -->
 
-            <div id="book-5" class="section-organized organized-five" data-aos="fade-up">
+            <div id="mra-head" class="section-organized organized-five">
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-6 m-12 c-12" data-aos="fade-right">
@@ -204,7 +208,7 @@
                                 <img class="app-mobile-2" src="./assets/img/5.png" alt="app" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
                                 The objective of the “HOW TO READ A NORMAL SCAN” series is to familiarize you with NORMAL anatomy as seen on MRI scans and CT scans before memorizing what Hallevorden Spatz or Blah Blah looks like (sure enough in your Board exam they will want you to
@@ -221,10 +225,10 @@
                 </div>
             </div>
 
-            <div id="book-6" class="section-organized organized-six" data-aos="fade-up">
+            <div id="mri-spine" class="section-organized organized-six">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12 left-mb">
                             <h2>Introducing the HOW TO READ A NORMAL SCAN book series</h2>
                             <p class="paragraph">
                                 My hope is, that after reading these books, at the very least you can point out structures on a normal scan and identify exactly what they are. And it is not just about avoiding the embarrassment of ignorance, it is about the sheer satisfaction of knowing
@@ -251,7 +255,7 @@
         </div>
 
         <div class="wrap-apps">
-            <div class="section-organized">
+            <div class="section-organized stroke-app">
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-6 m-12 c-12" data-aos="fade-left">
@@ -259,7 +263,7 @@
                                 <img class="app-mobile-2" src="./assets/img/section-1-left.png" alt="" width="100%">
                             </p>
                         </div>
-                        <div class="col l-6 m-12 c-12" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12">
                             <h2>STROKE SIMULATOR</h2>
                             <p class="paragraph">
                                 COMPREHENSIVE CHAOS-FREE STROKE EVALUATION IN RECORD TIME! The stroke simulator app trains you to do a rapid yet comprehensive evaluation of acute stroke, factors in all data pertinent for the 4.5 hr IV TPA window, the 6 hour endovascular window, the
@@ -267,18 +271,21 @@
                             </p>
 
                             <div class="wrap-button">
-                                <a href="https://neurology.us.com" class="btn download-btn">Learn more</a>
-                                <a href="https://neurology.us.com/user-manual/" class="btn download-btn">User Manual Video</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.ixidesigns.stroke_simulator" class="btn download-btn btn-bg">
+                                    <!-- <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play"> -->
+                                    Google Play
+                                </a>
+                                <a href="https://neurology.us.com/user-manual/" class="btn download-btn btn-bg">User Manual Video</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="section-organized">
+            <div class="section-organized neurology-app">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-6 m-12 c-12 left-mb" data-aos="fade-up">
+                        <div class="col l-6 m-12 c-12 left-mb">
                             <h2>Neurology Notes</h2>
                             <p class="paragraph">
                                 NEURO NOTES is a compact source of information that you would otherwise have to scour multiple sources for. These are just notes that contain a lot of information you may need to refer to or review in your daily practice. 159 Chapters at the moment and
@@ -286,7 +293,9 @@
                                 when you need it. Please let us know if there are topics you would like to see added to this list.
                             </p>
                             <div class="wrap-button">
-                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.neuronote" class="btn download-btn">Learn more</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.us.jk.neuronote">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
                             </div>
                         </div>
                         <div class="col l-6 m-12 c-12" data-aos="fade-left">
@@ -297,13 +306,39 @@
                     </div>
                 </div>
             </div>
+
+            <div class="section-organized acls">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12" data-aos="fade-left">
+                            <p class="edit-img">
+                                <img class="app-mobile-2" src="./assets/img/acls.png" alt="" width="100%">
+                            </p>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <h2>ACLS Review Guide</h2>
+                            <p class="paragraph">
+                                The ACLS system is fundamentally simple, but then why are so many folks confused about it? There are some core ALCS facts that you must know cold. This app, ACLS REVIEW GUIDE has more than 200 questions and answers that cover a large chunk of those core
+                                points. The entire app is designed to facilitate learning. The ACLS REVIEW GUIDE app uses a two step strategy. The flashcard part of the ACLS REVIEW GUIDE focuses on teaching you core learning points. Flash cards are one
+                                of the most effective ways of learning new information.
+                            </p>
+
+                            <div class="wrap-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.magma.acls">
+                                    <img class="google-play" src="./assets/img/google-play-badge.png" alt="google play">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>
             <div class="grid wide">
                 <div class="row">
                     <div class="col l-3 m-12 c-12">
-                        <a href="index.html"><img src="./assets/img/footer-logo.png" alt="logo" width="160px"></a>
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
 
                     </div>
                     <div class="col l-9 m-12 c-12 m-12 c-12">
@@ -339,13 +374,7 @@
     </div>
     <!--end app-->
 
-    <script type="text/javascript" src="./assets/js/animation.js"></script>
-    <script type="text/javascript">
-        AOS.init({
-            offset: 400,
-            duration: 1000,
-        });
-    </script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $('.header ul li a').click(function() {

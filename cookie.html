@@ -38,7 +38,6 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
@@ -52,15 +51,17 @@
                 <div class="row">
                     <div class="header__inner">
                         <div class="wrap-logo">
-                            <a href="index.html"><img class="logo-svg" src="./assets/img/mylogo.png" alt="logo" width="160px"></a>
+                            <a href="index.html"><img class="logo-svg" src="./assets/img/logo.png" alt="logo"></a>
+                            <a class="logo-text" href="index.html">neurologyresidency.org</a>
                         </div>
+
                         <ul>
-                            <li class="active"><a href="#book-1">Book 1</a></li>
-                            <li><a href="#book-2">Book 2</a></li>
-                            <li><a href="#book-3">Book 3</a></li>
-                            <li><a href="#book-4">Book 4</a></li>
-                            <li><a href="#book-5">Book 5</a></li>
-                            <li><a href="#book-6">Book 6</a></li>
+                            <li class="active"><a href="#ct-head">CT Head</a></li>
+                            <li><a href="#ct-spine">CT Spine</a></li>
+                            <li><a href="#mri-brain-1">MRI Brain 1</a></li>
+                            <li><a href="#mri-brain-2">MRI Brain 2</a></li>
+                            <li><a href="#mra-head">MRA Head</a></li>
+                            <li><a href="#mri-spine">MRI Spine</a></li>
                         </ul>
                         <div class="header_menubar">
                             <i class="icon-menu fas fa-bars"></i>
@@ -318,7 +319,7 @@
             <div class="grid wide">
                 <div class="row">
                     <div class="col l-3 m-12 c-12">
-                        <a href="index.html"><img src="./assets/img/footer-logo.png" alt="logo" width="160px"></a>
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
 
                     </div>
                     <div class="col l-9 m-12 c-12 m-12 c-12">
@@ -351,13 +352,6 @@
         </div>
 
     </div>
-    <script type="text/javascript" src="./assets/js/animation.js"></script>
-    <script type="text/javascript">
-        AOS.init({
-            offset: 400,
-            duration: 1000,
-        });
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $('.header ul li a').click(function() {
