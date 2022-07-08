@@ -353,6 +353,10 @@
         text-decoration: none;
     }
     
+    footer .link-bottom a:hover {
+        color: var(--primary-color);
+    }
+    
     footer .top-footer {
         display: flex;
         justify-content: center;
