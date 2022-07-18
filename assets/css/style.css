@@ -100,6 +100,12 @@
         color: #000;
     }
     
+    .left-menu-inner a:hover,
+    .left-menu-inner a:focus {
+        color: #000000;
+        background-color: #cccccc;
+    }
+    
     .wrapper-main .main-content {
         flex: 1;
         color: #000;
